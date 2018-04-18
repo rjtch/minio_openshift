@@ -1,8 +1,8 @@
-## minio for openshift 
+# minio for openshift 
 
 Storage with S3 compatible API https://minio.io/
 
-# Environment Variables
+## Environment Variables
 
 - MINIO_ACCESS_KEY: set the access key, defaults to "MINIO_ACCESS_KEY"
 - MINIO_SECRET_KEY: set the secret key, defaults to "MINIO_SECRET_KEY"
