@@ -6,8 +6,7 @@ ENV MINIO_DOWNLOAD_URL="https://dl.minio.io/server/minio/release/linux-amd64/min
 
 RUN mkdir -p /minio/bin \
 ## Install prerequisities
- && apk update && apk add curl \ 
- && echo "curl -sL -o /minio/bin/minio $MINIO_DOWNLOAD_URL" \
+ && echo "curl -sL -o /minio/bin/minio $MINIO_DOWNLOAD_URL" \ 
  && curl -sL -o /minio/bin/minio $MINIO_DOWNLOAD_URL \
  && chmod +x /minio/bin/minio
 
