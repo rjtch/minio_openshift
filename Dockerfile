@@ -1,4 +1,4 @@
-FROM alpine AS builder
+FROM openshift/base-centos7
 
 ENV MINIO_ACCESS_KEY="C8NODTMLRKRBB4665CV9"
 ENV MINIO_SECRET_KEY="a3xpzQFu4rKRC/pm0Ky9ciyhBvXMb/Go3cfETNH2"
